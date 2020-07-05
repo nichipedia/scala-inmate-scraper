@@ -1,7 +1,11 @@
-package tech.housemoran.realgood
-import org.hibernate.SessionFactory
-import org.hibernate.cfg.{AnnotationConfiguration, Configuration}
+package tech.housemoran.realgood.datalayer
 
+import org.hibernate.SessionFactory
+import org.hibernate.cfg.Configuration
+
+/** ************************************************
+ * * Created by Nicholas on 7/4/2020.               **
+ * *************************************************/
 object HibernateUtil {
   private val sessionFactory = buildSessionFactory
 
